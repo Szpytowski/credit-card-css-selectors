@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.credit-card {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: #285dcd;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.credit-card-front .number {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    height: 2vh;
+}
+
+.credit-card-front .information-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3.5vh;
+    margin-left: 10px;
+}
+
+.credit-card-front .information-wrapper p:first-child {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width: 43px;
+}
+
+.credit-card-front .information-wrapper p:last-child {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.credit-card-front .name {
+    font-size: 20px;
+    height: 2vh;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.credit-card-back {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.credit-card-back .magnetic-strip {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    left: 0;
+}
+
+.credit-card-back .information-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.credit-card-back .information-wrapper p.name {
+    display: flex;
+    align-items: center;
+    background-color: #ccc;
+    padding: 5px 20px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+    margin-top: 65px;
+    width: 45%;
+    height: 22px;
+}
+
+.credit-card-back .information-wrapper p.number {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 0;
+    position: absolute;
+    margin-left: 148px ;
+    margin-top: 20px;
+}
