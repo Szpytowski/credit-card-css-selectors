@@ -25,7 +25,7 @@ body {
     font-size: 25px;
     letter-spacing: 2px;
     margin-left: 10px;
-    height: 2vh;
+    height: 15px;
     margin-bottom: 15px;
 }
 
@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 3.5vh;
+    height: 35px;
     margin-left: 10px;
 }
 
@@ -92,15 +92,16 @@ body {
     font-size:30px;
     margin-top: 25px;
     margin-left: 15px;
-    width: 45%;
+    width:35%;
     height: 22px;
 }
 
 .credit-card-back .information-wrapper p.number {
     font-size: 14px;
     font-style: italic;
-    margin-bottom: 10px;
-    position: absolute; /* how should i position it in the other container?*/
-    margin-left: 155px ;
+    margin-bottom: 5px;
     margin-top: 0px;
+    background-color: #ccc;
+    height: 32px;
+    padding-right: 5px;
 }
