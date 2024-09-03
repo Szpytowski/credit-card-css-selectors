@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.credit-card {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: #285dcd;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.credit-card-front .number {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    height: 15px;
+    margin-bottom: 15px;
+}
+
+.credit-card-front .information-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.credit-card-front .information-wrapper p:first-child {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width: 43px;
+}
+
+.credit-card-front .information-wrapper p:last-child {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.credit-card-front .name {
+    font-size: 20px;
+    height: 2vh;
+    margin-bottom: 10px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.credit-card-back {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.credit-card-back .magnetic-strip {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    left: 0;
+}
+
+.credit-card-back .information-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.credit-card-back .information-wrapper p.name {
+    display: flex;
+    align-items: center;
+    background-color: #ccc;
+    padding: 5px 20px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+    margin-top: 25px;
+    margin-left: 15px;
+    width:35%;
+    height: 22px;
+}
+
+.credit-card-back .information-wrapper p.number {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    background-color: #ccc;
+    height: 32px;
+    padding-right: 5px;
+}
